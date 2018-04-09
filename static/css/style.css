@@ -143,7 +143,7 @@ body {
 
 .btn:hover {
 	color: #fff;
-	background: #e64946;
+	background: #6699cc;
 }
 
 /*** Columns ***/
@@ -268,6 +268,13 @@ code {
 	overflow-x: auto;
 }
 
+code.off {
+	white-space: nowrap;
+	white-space: -o-nowrap;
+	white-space: -moz-nowrap;
+	white-space: -webkit-nowrap;
+}
+
 pre {
 	display: block;
 	font-family: "Consolas", Courier New, Courier, monospace;
@@ -277,6 +284,16 @@ pre {
 	background: #f5f5f5;
 	border: 1px solid #ebebeb;
 	overflow-x: auto;
+}
+
+pre.off {
+	padding: 20px;
+	margin-bottom: 20px;
+	margin-bottom: 1.25rem;
+	white-space: prewrap;
+	white-space: -o-prewrap;
+	white-space: -moz-prewrap;
+	white-space: -webkit-prewrap;
 }
 
 pre code {
@@ -309,7 +326,7 @@ blockquote {
 	font-style: italic;
 	color: #666;
 	padding: 5px 0 5px 15px;
-	border-left: 5px solid #e64946;
+	border-left: 5px solid #6699cc;
 }
 
 sup {
@@ -350,7 +367,7 @@ a {
 }
 
 a:hover {
-	color: #e64946;
+	color: #6699cc;
 }
 
 /*** Lists ***/
@@ -422,7 +439,7 @@ select {
 	font-size: 14px;
 	font-size: 0.875rem;
 	line-height: 1;
-	color: #e64946;
+	color: #6699cc;
 	padding-top: 10px;
 	margin-top: 10px;
 	border-top: 1px solid #e5e5e5;
@@ -432,7 +449,7 @@ select {
 	border: 0;
 	margin: 0;
 	height: 5px;
-	background: #e64946;
+	background: #6699cc;
 }
 
 /*** Navigation — Responsive-nav.js ***/
@@ -494,7 +511,7 @@ select {
 }
 
 .opened.menu__list {
-	border-top: 1px solid #e64946;
+	border-top: 1px solid #6699cc;
 }
 
 .menu__item {
@@ -504,11 +521,11 @@ select {
 }
 
 .menu__item:hover {
-	background: #e64946;
+	background: #6699cc;
 }
 
 .menu__item--active {
-	background: #e64946;
+	background: #6699cc;
 }
 
 .menu__item:first-child {
@@ -529,7 +546,7 @@ select {
 	}
 
 	.menu {
-		border-bottom: 5px solid #e64946;
+		border-bottom: 5px solid #6699cc;
 		min-height: 42px;
 	}
 
@@ -566,7 +583,7 @@ select {
 }
 
 .meta a:hover {
-	color: #e64946;
+	color: #6699cc;
 }
 
 .meta span {
@@ -617,11 +634,11 @@ select {
 
 .post__content a, .list__excerpt a, .warning a {
 	font-weight: 700;
-	color: #e64946;
+	color: #6699cc;
 }
 
 .post__content a:hover, .list__excerpt a:hover, .warning a:hover {
-	color: #e64946;
+	color: #6699cc;
 	text-decoration: underline;
 }
 
@@ -644,7 +661,7 @@ select {
 }
 
 .tags__item:hover {
-	background: #e64946;
+	background: #6699cc;
 }
 
 .tags__link, .tags__link:hover {
@@ -657,7 +674,7 @@ select {
 	float: left;
 	padding: 8px;
 	margin-right: 6px;
-	background: #e64946;
+	background: #6699cc;
 }
 
 .icon-tag {
@@ -748,7 +765,7 @@ select {
 
 .pagination__item:hover, .pagination__item--current {
 	color: #fff;
-	background: #e64946;
+	background: #6699cc;
 }
 
 /*** Post Navigation ***/
@@ -878,7 +895,7 @@ input[type=text], input[type=email], input[type=tel], input[type=url] {
 
 input[type=text]:hover, input[type=email]:hover, input[type=tel]:hover,
 input[type=url]:hover, textarea:hover {
-	border: 1px solid #e64946;
+	border: 1px solid #6699cc;
 }
 
 input[type=submit] {
@@ -887,7 +904,7 @@ input[type=submit] {
 	font-weight: 700;
 	color: #fff;
 	padding: 10px 15px;
-	background: #e64946;
+	background: #6699cc;
 	cursor: pointer;
 	text-transform: uppercase;
 	-webkit-transition: all 0.1s linear;
@@ -973,7 +990,7 @@ textarea {
 	margin-bottom: 20px;
 	margin-bottom: 1.25rem;
 	text-transform: uppercase;
-	border-bottom: 3px solid #e64946;
+	border-bottom: 3px solid #6699cc;
 }
 
 .widget-social__link {
@@ -1014,7 +1031,7 @@ textarea {
 
 .widget__link--taglist:hover, .widget .widget__link--taglist:hover {
 	color: #fff;
-	background: #e64946;
+	background: #6699cc;
 }
 
 /*** Recent Posts Widget ***/
