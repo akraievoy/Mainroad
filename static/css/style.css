@@ -261,26 +261,18 @@ code {
 	color: #c33;
 	background-color: #f5f5f5;
 	border: 1px solid #ebebeb;
-	white-space: nowrap;
-	white-space: -o-nowrap;
-	white-space: -moz-nowrap;
-	white-space: -webkit-nowrap;
+	overflow-x: auto;
 }
 
 pre {
 	display: block;
 	font-family: "Consolas", Courier New, Courier, monospace;
 	color: #000;
-	margin-bottom: 20px;
-	margin-bottom: 1.25rem;
+	padding: 0.25rem;
+	padding: 4px;
 	background: #f5f5f5;
 	border: 1px solid #ebebeb;
-	padding: 20px;
-	padding: 1.25rem;
-	white-space: pre-wrap;
-	white-space: -o-pre-wrap;
-	white-space: -moz-pre-wrap;
-	white-space: -webkit-pre-wrap;
+	overflow-x: auto;
 }
 
 pre code {
